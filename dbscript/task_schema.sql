@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS loya_task
+   DEFAULT CHARACTER SET utf8
+   DEFAULT COLLATE utf8_general_ci;
+
+GRANT ALL ON loya_task.* TO 'root' IDENTIFIED BY '123456';
+
+
